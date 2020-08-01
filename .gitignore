@@ -1,1 +1,4 @@
 # Add files below to ignore tracking
+
+# Static 
+image/*
