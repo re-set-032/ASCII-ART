@@ -1,4 +1,6 @@
-# Add files below to ignore tracking
+# Add files below to ignore tracking on them
 
-# Static 
-image/*
+# Static files
+images/Colored/*
+images/GreyScaled/*
+out/*
