@@ -1,0 +1,29 @@
+READ CAREFULLY 
+
+INSTRUCTIONS to run the code : 
+
+=>  First of all let me clear some things regarding the code.
+=>  This code i.e Art.py supports certain flags which can be used to pass parameters to the code. One of them is mandatory 
+    if you don't specify that the code will not run.
+=>  This code has one mandatory flag for input image path
+
+=> 	The supported flags are listed below :
+	--input INPUT_IMAGE_PATH : use this to specify input image path (absolute/relative)  
+	--out  OUTPUT_FILE_PATH  : use this to specify output file path (absolute/relative) (default = "out.txt" in current folder as the code itself)
+	--tW   TILE_WIDTH 		 : use this to set tile width (default = 8)
+	--tH   TILE_HEIGHT 		 : use this to set tile height (default = 10)
+	--grey 			         : use this if the input image is already greyscaled (mandatory if input image is greyscaled 
+                               otherwise no need of this flag) (default is set only for colored images)
+	--use70					 : use this if you want to map pixels based on ascii_70_charset (see code for more details) 
+                               (by default ascii_10_charset is used in mapping)
+    --show                   : use this if you want to print the ascii image in terminal window 
+                               (not suggested though since you have to resize font size of terminal to view the image clearly)
+    
+=> Examples instructions commands to run Art.py using terminal:-
+
+	python3 Art.py --input selfie.jpg                         (assumming input image is colored) 
+						or
+	python3 Art.py --input selfie.jpg --out output.txt        (assumming input image is colored)
+						or
+	python3 Art.py --input selfie.jpg --out output.txt --grey (assumming input image is greyscaled)
+						
