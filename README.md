@@ -1,7 +1,9 @@
 # ASCII ART
 
 Author: ronin117_prog
+
 Last Updated: 2 Aug 2020
+
 Release Version: 1.0
 
 ## About :
